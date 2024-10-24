@@ -69,7 +69,7 @@ The Rule Engine Application is a React-based web application designed to allow u
 3. **Setup MongoDB**:
    - Ensure MongoDB is running locally on `mongodb://localhost:27017/rule-engine`.
 
-4. **Seed the database**:
+** If there is a Need to chnage the Attributes Seed the database**:
 
     ```bash
     node server/seedAttributes.js

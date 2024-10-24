@@ -1,0 +1,7 @@
+.App{
+    background-color: rgb(20, 28, 40);
+}
+.wide-width {
+    width: 35rem;
+    max-width: 90vw;
+}

@@ -25,7 +25,7 @@ The Rule Engine Application is a React-based web application designed to allow u
 
 ## File Structure
 
-\`\`\`plaintext
+```plaintext
 ├── client/
 │   ├── components/
 │   │   ├── RuleBuilder.jsx        # Component for building rules
@@ -41,7 +41,7 @@ The Rule Engine Application is a React-based web application designed to allow u
 │   └── ruleController.js          # Controller for handling rule-related requests
 ├── Dockerfile                      # Dockerfile for building the application
 └── README.md                       # This README file
-\`\`\`
+```
 
 ## Installation
 
@@ -55,38 +55,38 @@ The Rule Engine Application is a React-based web application designed to allow u
 
 1. **Clone the repository**:
 
-    \`\`\`bash
+    ```bash
     git clone https://github.com/your-username/rule-engine-app.git
     cd rule-engine-app
-    \`\`\`
+    ```
 
 2. **Install dependencies**:
 
-    \`\`\`bash
+    ```bash
     npm install
-    \`\`\`
+    ```
 
 3. **Setup MongoDB**:
-   - Ensure MongoDB is running locally on \`mongodb://localhost:27017/rule-engine\`.
+   - Ensure MongoDB is running locally on `mongodb://localhost:27017/rule-engine`.
 
 4. **Seed the database**:
 
-    \`\`\`bash
+    ```bash
     node server/seedAttributes.js
-    \`\`\`
+    ```
 
 5. **Start the server**:
 
-    \`\`\`bash
+    ```bash
     npm start
-    \`\`\`
+    ```
 
 6. **Run the client** (if using a separate React frontend):
 
-    \`\`\`bash
+    ```bash
     cd client
     npm start
-    \`\`\`
+    ```
 
 ## Usage
 
@@ -96,41 +96,41 @@ To build and run the application using Docker:
 
 1. **Pull Docker Image**:
 
-    \`\`\`bash
+    ```bash
     docker pull hit4man47/rule-engine-image:latest
-    \`\`\`
+    ```
 
 2. **Run the Docker Container**:
 
-    \`\`\`bash
+    ```bash
     docker run -d -p 27017:27017 --name rule-engine-db hit4man47/rule-engine-image:latest
-    \`\`\`
+    ```
 
 3. **Additional Docker Commands**:
 
     - **Pull Weather Mongo Image**:
 
-        \`\`\`bash
+        ```bash
         docker pull hit4man47/weather-mongo-image:latest
-        \`\`\`
+        ```
 
     - **Run Weather Mongo Container**:
 
-        \`\`\`bash
+        ```bash
         docker run -d -p 27017:27017 --name weather-mongo-db hit4man47/weather-mongo-image:latest
-        \`\`\`
+        ```
 
     - **Stop Weather Mongo Container**:
 
-        \`\`\`bash
+        ```bash
         docker stop weather-mongo-db
-        \`\`\`
+        ```
 
     - **Remove Weather Mongo Container**:
 
-        \`\`\`bash
+        ```bash
         docker rm weather-mongo-db
-        \`\`\`
+        ```
 
 ## API Endpoints
 

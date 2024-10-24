@@ -1,6 +1,3 @@
-
-_Created with [AIPRM Prompt "Readme Generator | Markdown Format | GitHub."](https://www.aiprm.com/prompts/softwareengineering/text-editor/1794387468406222848/)_
-
 # Rule Engine Application
 
 ## Table of Contents
